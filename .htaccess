@@ -1,0 +1,4 @@
+Options -Indexes
+
+RewriteEngine on
+RewriteRule ^([A-Za-z0-9]{8})$ includes/redirect.php?kode=$1
